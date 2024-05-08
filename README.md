@@ -1,17 +1,17 @@
-  <h1> Documentation: </h1>
-  <h2> High level Description: </h2>
+  <h1> Documentation </h1>
+  <h2> High level Description </h2>
     - This codebase implements a search functionality for the user to search and compare the prices of the products in the pharmacies <br>
     - It uses Elasticsearch for searching the products and Redis for caching the inventory data of the pharmacies along with prices. <br>
     - The search results are a combination of salt_suggestions, medicine_suggestions, and health_suggestions with prices. <br>
     
-  <h2> Code Description: </h2>
+  <h2> Code Description </h2>
     The code is divided into 3 main functions. <br>
-    1. new_search <br>
-    2. extractSuggestions <br>
-    3. getProduct <br> <br>
+    1. new_search() <br>
+    2. extractSuggestions() <br>
+    3. getProduct() <br> <br>
     Also, there are 2 helper functions. <br>
-    1. create_redis_inv <br>
-    2. getNearestPharmacy <br>
+    1. create_redis_inv() <br>
+    2. getNearestPharmacy() <br>
  
 
   <h3> new_search function() </h3>
