@@ -24,7 +24,7 @@
 
   <h3> extractSuggestions function() </h3>
     This function takes the search results as input <br>
-    - Extracts and returns the salt_suggestion, medicine_suggestions and health_suggestions from the search results. <br>
+    Extracts and returns the salt_suggestion, medicine_suggestions and health_suggestions from the search results. <br>
     
   <h3> getProduct function() </h3>
     This function takes the pharmacyIds and productId as input. <br>
